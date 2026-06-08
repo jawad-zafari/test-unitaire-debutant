@@ -1,0 +1,1 @@
+const addition = require('./math');
