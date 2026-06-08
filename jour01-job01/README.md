@@ -29,6 +29,7 @@ Modification du fichier `package.json` pour remplacer le script de test par déf
 Création du fichier `math.js` contenant une fonction simple d'addition, et du fichier `math.test.js` contenant les instructions de test pour vérifier cette fonction.
 
 ![Code de la fonction et du test](images/math.js.png)
+![Code de la fonction et du test](images/math-test.js.png)
 ---
 
 ## Étape 5 : Première exécution et erreur rencontrée
