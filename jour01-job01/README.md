@@ -34,7 +34,7 @@ Création du fichier `math.js` contenant une fonction simple d'addition, et du f
 ## Étape 5 : Première exécution et erreur rencontrée
 Lors du premier lancement de la commande de test, une erreur est apparue car le script était introuvable ou le fichier mal nommé. 
 
-![Première erreur de test](images/error-npm test.png)
+![Première erreur de test](<images/error-npm test.png>)
 
 ---
 ## Étape 6 : Exécution du test unitaire (Succès)
@@ -51,7 +51,7 @@ Modification volontaire du code (remplacement de l'addition par une soustraction
 
 ---
 
-## Étape  : Correction de l'erreur
+## Étape 8 : Correction de l'erreur
 Correction du code de la fonction et relance du test unitaire. Le test passe à nouveau avec succès, confirmant que la fonction est réparée et valide.
 
 ![Test corrigé](images/test-succ-02.png)
