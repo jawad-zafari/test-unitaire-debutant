@@ -14,7 +14,7 @@ Création du dossier de travail et initialisation d'un projet Node.js avec la co
 ## Étape 2 : Installation et configuration de Jest
 Installation de l'outil de test avec la commande `npm install --save-dev jest`. Ensuite, le fichier `package.json` a été modifié pour utiliser Jest lors de l'appel de la commande de test.
 
-    ![Installationn et configuration](images/install-jest.png)
+![Installationn et configuration](images/install-jest.png)
 
 ---
 
