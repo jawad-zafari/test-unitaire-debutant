@@ -50,3 +50,15 @@ Modification volontaire du code dans la classe Math (remplacement de l'addition 
 Restauration du code correct pour la méthode d'addition et nouvelle exécution du test. Le système affiche à nouveau un résultat positif (OK).
 
 ![Test corrigé et validé](images/test-succ-02.png)
+
+---
+
+## Étape supplémentaire : Ajout d'un script de test
+Modification du fichier `composer.json` pour ajouter un raccourci permettant de lancer les tests plus facilement. Le bloc suivant a été ajouté :
+
+```json
+"scripts": {
+  "test": "phpunit tests/"
+}
+```
+![composer test](images/composer-test-script.png)
