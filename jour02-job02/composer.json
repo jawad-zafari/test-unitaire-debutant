@@ -1,0 +1,15 @@
+{
+    "name": "hp/jour02-job02",
+    "autoload": {
+        "psr-4": {
+            "Hp\\Jour02Job02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jawad zafari",
+            "email": "jawad.zafari@laplateforme.io"
+        }
+    ],
+    "require": {}
+}
