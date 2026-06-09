@@ -11,5 +11,7 @@
             "email": "jawad.zafari@laplateforme.io"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^13.2"
+    }
 }
