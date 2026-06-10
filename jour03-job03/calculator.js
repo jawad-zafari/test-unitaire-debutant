@@ -29,8 +29,8 @@ function calculate() {
         currentinput = result.toString();
     } catch (e) {
         currentinput = "Erreur";
-        updateDisplay();
     }
+    updateDisplay();
 }
 
 // Fonction exportable pour Jest
