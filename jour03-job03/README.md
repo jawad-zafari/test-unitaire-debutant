@@ -91,3 +91,12 @@ if ($expression === '') {
 }
 ```
 ![composer-test-fail](images/composer-test-fail.png)
+
+Après cette modification, tous les tests PHP réussissent avec la commande :
+
+```bash
+composer test
+```
+
+![Succès PHPUnit](images/composer-test-succ.png)
+
