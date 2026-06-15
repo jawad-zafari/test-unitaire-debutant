@@ -90,4 +90,4 @@ if ($expression === '') {
     throw new RuntimeException("Erreur de calcul");
 }
 ```
-
+![composer-test-fail](images/composer-test-fail.png)
