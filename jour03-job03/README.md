@@ -68,4 +68,12 @@ Avec PHPUnit, nous testons ces éléments :
 * La division par zéro : le code doit lever une erreur (`RuntimeException`).
 * **Bonus :** La gestion d'une chaîne vide (pour corriger un bug).
 
+### 2. Tests JavaScript (`tests/calculator.test.js`)
+Avec Jest, nous testons ces éléments :
+* Les quatre opérations de base (addition, soustraction, multiplication, division).
+* Les priorités mathématiques (par exemple : `-2+3*4` doit donner `10`).
+* Les parenthèses (par exemple : `(2+3)*4` doit donner `20`).
+* Les expressions invalides (par exemple : `2+bad` doit lever une erreur).
+* **Bonus :** Le comportement avec une chaîne vide.
 
+---
