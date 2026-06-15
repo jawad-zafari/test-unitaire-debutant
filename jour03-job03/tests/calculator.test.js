@@ -22,5 +22,9 @@ describe('Tests de la calculatrice JavaScript', () => {
         expect(calculate('-2+3*4')).toBe(10);
     });
 
+    test('Parenthèses : (2 + 3) * 4 = 20', () => {
+        expect(calculate('(2+3)*4')).toBe(20);
+    });
+
     
 });
