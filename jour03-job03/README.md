@@ -100,3 +100,15 @@ composer test
 
 ![Succès PHPUnit](images/composer-test-succ.png)
 
+### 2. Validation des tests JavaScript
+Nous lançons les tests JavaScript avec la commande :
+
+```bash
+npm test
+```
+
+Tous les tests réussissent avec succès.
+
+![Succès Jest](<images/npm test-succ.png>)
+
+---
