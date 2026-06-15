@@ -15,5 +15,9 @@ class CalculatorTest extends TestCase {
         $this->assertEquals(5, $this->calculator->calculate('2+3'));
     }
 
+    public function testSoustraction() {
+        $this->assertEquals(5, $this->calculator->calculate('8-3'));
+    }
+
     
 }
