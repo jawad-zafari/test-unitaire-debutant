@@ -33,5 +33,9 @@ class CalculatorTest extends TestCase {
         $this->calculator->calculate('10/0');
     }
 
-    
+    // Section Points
+    public function testChaineVide() {
+        $this->expectException(RuntimeException::class);
+        $this->calculator->calculate('');
+    }
 }
