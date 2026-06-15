@@ -32,4 +32,4 @@ jour03-job03/
 ## Étape 1 : Configuration des Outils
 ### 1. Pour PHPUnit (PHP)
 
-Nous initialisons le projet avec la commande composer init. Ensuite, nous installons PHPUnit avec cette commande :
+Nous initialisons le projet avec la commande `composer init`. Ensuite, nous installons PHPUnit avec cette commande :
