@@ -23,5 +23,9 @@ class CalculatorTest extends TestCase {
         $this->assertEquals(12, $this->calculator->calculate('3*4'));
     }
 
+    public function testDivision() {
+        $this->assertEquals(3, $this->calculator->calculate('15/5'));
+    }
+
     
 }
