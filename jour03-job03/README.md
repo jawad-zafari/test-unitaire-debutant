@@ -83,3 +83,11 @@ Avec Jest, nous testons ces éléments :
 ### 1. Résolution du bug en PHP
 Pendant le premier test avec PHPUnit, nous avons trouvé un bug. Quand l'expression était vide, la calculatrice ne levait pas d'erreur.
 
+Nous avons modifié le fichier `calculator.php` pour ajouter cette sécurité :
+
+```php
+if ($expression === '') {
+    throw new RuntimeException("Erreur de calcul");
+}
+```
+
