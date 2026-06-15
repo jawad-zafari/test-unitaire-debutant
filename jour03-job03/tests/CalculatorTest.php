@@ -11,5 +11,9 @@ class CalculatorTest extends TestCase {
         $this->calculator = new Calculator();
     }
 
+    public function testAddition() {
+        $this->assertEquals(5, $this->calculator->calculate('2+3'));
+    }
+
     
 }
