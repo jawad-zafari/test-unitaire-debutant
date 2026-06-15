@@ -27,5 +27,11 @@ class CalculatorTest extends TestCase {
         $this->assertEquals(3, $this->calculator->calculate('15/5'));
     }
 
+    public function testDivisionParZero() {
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage("Erreur de calcul");
+        $this->calculator->calculate('10/0');
+    }
+
     
 }
