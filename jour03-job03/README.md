@@ -60,4 +60,12 @@ Dans le fichier `package.json`, nous modifions le script de test :
 ``` 
 ----
 
+## Étape 2 : Écriture des Tests Unitaires
+
+### 1. Tests PHP (`tests/CalculatorTest.php`)
+Avec PHPUnit, nous testons ces éléments :
+* Les opérations de base : l'addition, la soustraction, la multiplication et la division.
+* La division par zéro : le code doit lever une erreur (`RuntimeException`).
+* **Bonus :** La gestion d'une chaîne vide (pour corriger un bug).
+
 
