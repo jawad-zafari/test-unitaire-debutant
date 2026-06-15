@@ -77,3 +77,9 @@ Avec Jest, nous testons ces éléments :
 * **Bonus :** Le comportement avec une chaîne vide.
 
 ---
+
+## Étape 3 : Exécution des Tests et Correction du Bug
+
+### 1. Résolution du bug en PHP
+Pendant le premier test avec PHPUnit, nous avons trouvé un bug. Quand l'expression était vide, la calculatrice ne levait pas d'erreur.
+
