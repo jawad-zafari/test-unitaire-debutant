@@ -37,3 +37,27 @@ Nous initialisons le projet avec la commande `composer init`. Ensuite, nous inst
 ```bash
 composer require --dev phpunit/phpunit
 ```
+Dans le fichier `composer.json`, nous ajoutons un script pour lancer les tests facilement :
+
+```json
+"scripts": {
+  "test": "phpunit tests/"
+}
+``` 
+---
+
+### 2. Pour Jest (JavaScript)
+
+Nous initialisons `Node.js` avec la commande `npm init -y`. Ensuite, nous installons Jest avec cette commande :
+```bash
+npm install --save-dev jest
+```
+Dans le fichier `package.json`, nous modifions le script de test :
+```json
+"scripts": {
+  "test": "jest"
+}
+``` 
+----
+
+
