@@ -14,5 +14,9 @@ describe('Tests de la calculatrice JavaScript', () => {
         expect(calculate('4*5')).toBe(20);
     });
 
+    test('Division : 20 / 4 = 5', () => {
+        expect(calculate('20/4')).toBe(5);
+    });
+
     
 });
