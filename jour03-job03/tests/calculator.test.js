@@ -10,5 +10,9 @@ describe('Tests de la calculatrice JavaScript', () => {
         expect(calculate('10-4')).toBe(6);
     });
 
+    test('Multiplication : 4 * 5 = 20', () => {
+        expect(calculate('4*5')).toBe(20);
+    });
+
     
 });
