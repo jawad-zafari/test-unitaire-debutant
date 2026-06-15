@@ -32,5 +32,10 @@ describe('Tests de la calculatrice JavaScript', () => {
         }).toThrow("Expression invalide");
     });
 
-   
+    // Section Points
+    test('Chaîne vide', () => {
+        expect(() => {
+            calculate('');
+        }).toThrow();
+    });
 });
