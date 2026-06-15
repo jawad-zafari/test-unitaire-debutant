@@ -1,9 +1,13 @@
 <?php
 
 class Calculator {
-    public function calculate ($expression) {
+    public function calculate($expression) {
         $expression = str_replace(['x', '÷', ','], ['*', '/', '.'], $expression);
         $expression = trim($expression);
+        
+        if ($expression === '') {
+            throw new RuntimeException("Erreur de calcul");
+        }
         
         try {
             $result = eval("return $expression;");
