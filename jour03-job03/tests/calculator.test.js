@@ -18,5 +18,9 @@ describe('Tests de la calculatrice JavaScript', () => {
         expect(calculate('20/4')).toBe(5);
     });
 
+    test('Priorités mathématiques : -2 + 3 * 4 = 10', () => {
+        expect(calculate('-2+3*4')).toBe(10);
+    });
+
     
 });
