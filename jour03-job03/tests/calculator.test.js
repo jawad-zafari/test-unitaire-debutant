@@ -26,5 +26,11 @@ describe('Tests de la calculatrice JavaScript', () => {
         expect(calculate('(2+3)*4')).toBe(20);
     });
 
-    
+    test('Expression invalide : 2+bad', () => {
+        expect(() => {
+            calculate('2+bad');
+        }).toThrow("Expression invalide");
+    });
+
+   
 });
