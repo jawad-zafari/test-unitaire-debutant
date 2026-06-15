@@ -6,5 +6,9 @@ describe('Tests de la calculatrice JavaScript', () => {
         expect(calculate('2+3')).toBe(5);
     });
 
+    test('Soustraction : 10 - 4 = 6', () => {
+        expect(calculate('10-4')).toBe(6);
+    });
+
     
 });
