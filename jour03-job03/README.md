@@ -112,3 +112,9 @@ Tous les tests réussissent avec succès.
 ![Succès Jest](<images/npm test-succ.png>)
 
 ---
+
+## Compétences Validées
+* Installer et configurer PHPUnit et Jest dans un projet.
+* Écrire des tests unitaires clairs pour vérifier la logique mathématique.
+* Trouver, analyser et corriger un bug dans le code.
+* Créer un document de synthèse (README) pour expliquer le travail.
