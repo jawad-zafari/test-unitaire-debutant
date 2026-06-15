@@ -1,0 +1,17 @@
+{
+    "name": "hp/jour03-job03",
+    "autoload": {
+        "psr-4": {
+            "Hp\\Jour03Job03\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jawad zafari",
+            "email": "jawad.zafari@laplateforme.io"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.2"
+    }
+}
